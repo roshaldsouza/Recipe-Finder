@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Recipe Finder</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#searchSection">Search</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h2>Find Delicious Recipes for Every Meal</h2>
+            <p>Discover a variety of recipes from around the world and bring flavor to your kitchen!</p>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <div class="container" id="searchSection">
+        <h3>Search for a Recipe</h3>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Enter a recipe name...">
+            <button onclick="searchRecipe()">Search</button>
+        </div>
+        <div id="recipeList" class="recipe-list"></div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Recipe Finder. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
